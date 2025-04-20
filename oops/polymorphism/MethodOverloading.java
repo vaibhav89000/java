@@ -1,3 +1,5 @@
+// Static polymorphism (Compile time polymorphism)
+
 public class MethodOverloading {
 
     // Method to add two integers

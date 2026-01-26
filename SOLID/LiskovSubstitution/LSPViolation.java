@@ -1,5 +1,7 @@
-// “In the first design, the base Payment class promised refund support, but CashPayment could not honor it, violating Liskov Substitution Principle.
-// By separating refund capability into a RefundablePayment interface, each payment method now only implements what it supports, ensuring safe substitution.”
+// “In the first design, the base Payment class promised refund support, 
+// but CashPayment could not honor it, violating Liskov Substitution Principle.
+// By separating refund capability into a RefundablePayment interface, 
+// each payment method now only implements what it supports, ensuring safe substitution.”
 
 class Payment {
     void pay(double amount) {

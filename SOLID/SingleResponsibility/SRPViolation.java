@@ -1,5 +1,7 @@
-// “Earlier, Invoice had multiple responsibilities like calculation, persistence, and printing.
-// By separating them into different classes, each class now has only one reason to change, which follows the Single Responsibility Principle.”
+// “Earlier, Invoice had multiple responsibilities like calculation, 
+// persistence, and printing.
+// By separating them into different classes, each class now has only one reason
+// to change, which follows the Single Responsibility Principle.”
 
 class Invoice {
     private int amount;

@@ -1,3 +1,5 @@
+// A class should not be forced to implement interfaces it does not use.
+
 // “Earlier, a single Shape interface forced 2D shapes to implement volume, violating Interface Segregation Principle.
 // By splitting interfaces into TwoDShape and ThreeDShape, each class implements only what it needs.
 // This makes the design cleaner, safer, and more extensible.”

@@ -1,3 +1,5 @@
+// Only one reason to change, meaning it should have only one responsibility
+
 // “Earlier, Invoice had multiple responsibilities like calculation, 
 // persistence, and printing.
 // By separating them into different classes, each class now has only one reason

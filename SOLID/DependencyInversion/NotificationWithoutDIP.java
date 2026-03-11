@@ -1,8 +1,14 @@
 
+// High-level modules should not depend on low-level modules.
+// Both should depend on abstractions (interfaces).
+
 // “Earlier, NotificationService was directly dependent on Email and SMS classes.
 // When WhatsApp was introduced, we had to modify NotificationService, violating DIP.
 // By introducing a NotificationChannel interface, both high-level and low-level modules now depend on abstraction.
 // Adding WhatsApp required only a new class, without touching existing logic.”
+
+// High level module - NotificationService
+// Low level modules - EmailService, SmsService, WhatsAppService
 
 class EmailService {
     void sendEmail(String message) {

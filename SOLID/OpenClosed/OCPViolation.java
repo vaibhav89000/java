@@ -1,6 +1,9 @@
+// Open for extension but closed for modification.
+
 // “Earlier, AreaCalculator had to be modified whenever a new shape was added.
 // By introducing a Shape interface, I made the system extensible.
 // Now adding a new shape only requires creating a new class, without touching existing logic.”
+
 
 class AreaCalculator {
 

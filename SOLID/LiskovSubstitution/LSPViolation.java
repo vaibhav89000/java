@@ -1,3 +1,5 @@
+// A child class should be able to replace its parent class without breaking the program.
+
 // “In the first design, the base Payment class promised refund support, 
 // but CashPayment could not honor it, violating Liskov Substitution Principle.
 // By separating refund capability into a RefundablePayment interface, 

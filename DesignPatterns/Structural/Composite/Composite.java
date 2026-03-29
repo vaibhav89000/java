@@ -1,3 +1,9 @@
+// The Composite pattern lets you treat individual objects and groups of objects uniformly.
+// It composes objects into tree structures to represent part-whole hierarchies.
+// When you have hierarchical data
+// File system (files + folders)
+// Organization structure
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,5 @@
-
+// The Decorator pattern allows you to add new behavior to an object dynamically without modifying its existing code.
+// When you want to add features without changing existing class
 interface Pizza {
     double getCost();
 }

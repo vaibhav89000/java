@@ -1,5 +1,8 @@
 
 
+// The Bridge pattern decouples abstraction from implementation, so that both can vary independently.
+// This solved N*M problem where we have N shapes and M colors, without bridge we would have to create N*M classes for each shape-color combination, but with bridge we can create N shape classes and M color classes and bridge them together.
+// This can solve in N+M classes instead of N*M classes using bridge pattern.
 interface Color {
     void applyColor();
 }

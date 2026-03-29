@@ -1,4 +1,4 @@
-
+// The Adapter pattern allows two incompatible interfaces to work together by acting as a bridge between them.
 interface weightMachine {
     public double getWeightInKg();
 }

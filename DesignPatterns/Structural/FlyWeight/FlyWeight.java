@@ -1,3 +1,9 @@
+// The Flyweight pattern is used to reduce memory usage by sharing common objects instead of creating new ones repeatedly.
+// It reuses existing objects (flyweights) and avoids duplication.
+// When you have large number of similar objects
+// When object creation is expensive (memory heavy)
+// When many objects share common data
+
 import java.util.HashMap;
 import java.util.Map;
 
